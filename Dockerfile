@@ -38,7 +38,7 @@ RUN chown -R mwlib:mwlib /data/mwcache
 
 # Add services to runit
 ADD nserve.sh /etc/service/nserve/run
-ADD mw-serve.sh /etc/service/mw-serve/run
+ADD mw-qserve.sh /etc/service/mw-qserve/run
 ADD nslave.sh /etc/service/nslave/run
 ADD postman.sh /etc/service/postman/run
 
