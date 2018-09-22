@@ -1,6 +1,11 @@
 FROM phusion/baseimage:latest
 MAINTAINER David Young <davidy@funkypenguin.co.nz>
 
+# BUILD_DATE and VCS_REF are immaterial, since this is a 2-stage build, but our build
+# hook won't work unless we specify the args
+ARG BUILD_DATE
+ARG VCS_REF
+
 #########################################
 ##        ENVIRONMENTAL CONFIG         ##
 #########################################
