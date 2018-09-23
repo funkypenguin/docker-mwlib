@@ -9,7 +9,7 @@
 
 # Contents
 
-1. [What is funkypenguin/oauth2_proxy?](##what-is-funkypenguinoauth2_proxy)
+1. [What is funkypenguin/docker-mwlib?](##what-is-funkypenguindocker-mwlib)
 2. [Why should I use this?](#why-should-i-use-this)
 3. [How do I use it?](#how-do-i-use-this)
 4. [CHANGELOG](#changelog)
